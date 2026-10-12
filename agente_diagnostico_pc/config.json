@@ -1,0 +1,19 @@
+{
+  "servidor": {
+    "url_api": "http://localhost:83/api/diagnostico/recibir.php",
+    "timeout_segundos": 15,
+    "reintentos_maximos": 2
+  },
+  "politica_auditoria": {
+    "max_apps_prefetch": 15,
+    "max_descargas_recientes": 10,
+    "dias_descargas_recientes": 7,
+    "umbral_disco_critico_gb": 10,
+    "umbral_disco_advertencia_gb": 25,
+    "umbral_ram_advertencia_pct": 88
+  },
+  "debug": {
+    "guardar_ultimo_json_local": true,
+    "ruta_json_local": "ultimo_diagnostico.json"
+  }
+}

@@ -1,0 +1,206 @@
+﻿{
+    "metadatos":  {
+                      "direccion_mac":  "2C:3B:70:D8:1E:81",
+                      "hostname":  "AIREYU",
+                      "usuario_windows":  "Aireyu\\airey",
+                      "ip_local":  "192.168.11.75",
+                      "tipo_evento":  "programado",
+                      "timestamp":  "2026-10-12T21:24:59Z"
+                  },
+    "resumen_salud":  {
+                          "estado_salud_general":  "advertencia",
+                          "uso_cpu_porcentaje":  30,
+                          "temperatura_cpu":  null,
+                          "uso_ram_porcentaje":  81.9,
+                          "espacio_libre_c_gb":  12.4,
+                          "salud_disco_smart":  "OK",
+                          "antivirus_activo":  true,
+                          "amenazas_activas":  0
+                      },
+    "hardware":  {
+                     "cpu":  {
+                                 "modelo":  "12th Gen Intel(R) Core(TM) i5-12450H",
+                                 "nucleos":  8,
+                                 "hilos":  12,
+                                 "carga_porcentaje":  30,
+                                 "temperatura_c":  null,
+                                 "estado":  "optimo",
+                                 "alerta":  null
+                             },
+                     "ram":  {
+                                 "total_gb":  16,
+                                 "usado_gb":  12.83,
+                                 "libre_gb":  2.84,
+                                 "uso_porcentaje":  81.9,
+                                 "ranuras_usadas":  2,
+                                 "velocidad_mhz":  3200,
+                                 "estado":  "bueno",
+                                 "alerta":  null
+                             },
+                     "almacenamiento":  [
+                                            {
+                                                "unidad":  "C:",
+                                                "modelo":  "SK hynix PC801 HFS512GEJ9X101N",
+                                                "tamano_gb":  236.6,
+                                                "libre_gb":  12.4,
+                                                "libre_porcentaje":  5.2,
+                                                "smart_status":  "OK",
+                                                "estado":  "advertencia",
+                                                "alerta":  "Espacio bajo: 12.4 GB libres (5.2%)"
+                                            },
+                                            {
+                                                "unidad":  "D:",
+                                                "modelo":  "SK hynix PC801 HFS512GEJ9X101N",
+                                                "tamano_gb":  239.2,
+                                                "libre_gb":  17.3,
+                                                "libre_porcentaje":  7.2,
+                                                "smart_status":  "OK",
+                                                "estado":  "advertencia",
+                                                "alerta":  "Espacio bajo: 17.3 GB libres (7.2%)"
+                                            },
+                                            {
+                                                "unidad":  "G:",
+                                                "modelo":  "SK hynix PC801 HFS512GEJ9X101N",
+                                                "tamano_gb":  236.6,
+                                                "libre_gb":  11.8,
+                                                "libre_porcentaje":  5,
+                                                "smart_status":  "OK",
+                                                "estado":  "advertencia",
+                                                "alerta":  "Espacio bajo: 11.8 GB libres (5%)"
+                                            }
+                                        ],
+                     "placa_madre":  {
+                                         "fabricante":  "HP",
+                                         "modelo":  "8A50",
+                                         "serial":  "PQNNA038JHY0DI"
+                                     },
+                     "red":  {
+                                 "adaptador":  "MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter",
+                                 "mac":  "2C:3B:70:D8:1E:81",
+                                 "ip":  "192.168.11.75",
+                                 "gateway":  "192.168.11.1",
+                                 "dns":  [
+                                             "96.45.45.45",
+                                             "96.45.46.46"
+                                         ],
+                                 "estado":  "optimo",
+                                 "alerta":  null
+                             }
+                 },
+    "software_y_seguridad":  {
+                                 "antivirus":  {
+                                                   "nombre":  "Windows Defender",
+                                                   "proteccion_tiempo_real":  true,
+                                                   "firmas_actualizadas":  true,
+                                                   "ultima_definicion":  "2026-10-11 10:15:07",
+                                                   "amenazas_activas":  0,
+                                                   "estado":  "optimo",
+                                                   "alerta":  null
+                                               },
+                                 "apps_recientes_prefetch":  [
+                                                                 {
+                                                                     "ejecutable":  "ms-photosspareprocess-viewer (37)",
+                                                                     "ultima_ejecucion":  "2026-10-12 16:11:53",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "2026-41",
+                                                                     "ultima_ejecucion":  "2026-10-12 16:11:51",
+                                                                     "tamano_kb":  1.9,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "logo sin fondo.png",
+                                                                     "ultima_ejecucion":  "2026-10-12 16:11:51",
+                                                                     "tamano_kb":  2.5,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "Formulario_Registro",
+                                                                     "ultima_ejecucion":  "2026-10-12 15:52:23",
+                                                                     "tamano_kb":  0.5,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "gimnasia 2 (2)",
+                                                                     "ultima_ejecucion":  "2026-10-12 11:39:33",
+                                                                     "tamano_kb":  0.7,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "gimnacia2  edited.MP3",
+                                                                     "ultima_ejecucion":  "2026-10-12 11:39:33",
+                                                                     "tamano_kb":  1,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "new michael.mpeg",
+                                                                     "ultima_ejecucion":  "2026-10-12 11:25:39",
+                                                                     "tamano_kb":  2.4,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "gimnasia 2.MP3.mpeg",
+                                                                     "ultima_ejecucion":  "2026-10-12 11:20:57",
+                                                                     "tamano_kb":  2.5,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "ms-screenclip---source=PrintScreen (90)",
+                                                                     "ultima_ejecucion":  "2026-10-11 14:32:24",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "PhoneFixDir",
+                                                                     "ultima_ejecucion":  "2026-10-11 12:03:52",
+                                                                     "tamano_kb":  0.6,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "campo_garantia.jpg",
+                                                                     "ultima_ejecucion":  "2026-10-11 12:03:52",
+                                                                     "tamano_kb":  0.8,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "factura_PF_2610_0006.pdf",
+                                                                     "ultima_ejecucion":  "2026-10-10 17:26:42",
+                                                                     "tamano_kb":  0.6,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "ms-photosspareprocess-viewer (36)",
+                                                                     "ultima_ejecucion":  "2026-10-10 16:51:07",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "campo_proveedores.jpg",
+                                                                     "ultima_ejecucion":  "2026-10-10 16:51:03",
+                                                                     "tamano_kb":  0.8,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "ms-photosspareprocess-viewer (35)",
+                                                                     "ultima_ejecucion":  "2026-10-09 21:53:55",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 }
+                                                             ],
+                                 "descargas_recientes":  [
+                                                             {
+                                                                 "archivo":  "app-release.apk.zip",
+                                                                 "tamano_kb":  65569.2,
+                                                                 "fecha":  "2026-10-01 14:46:41",
+                                                                 "riesgo_potencial":  false
+                                                             }
+                                                         ],
+                                 "alertas_detectadas":  [
+                                                            "ADVERTENCIA [C:]: Espacio bajo: 12.4 GB libres (5.2%)",
+                                                            "ADVERTENCIA [D:]: Espacio bajo: 17.3 GB libres (7.2%)",
+                                                            "ADVERTENCIA [G:]: Espacio bajo: 11.8 GB libres (5%)"
+                                                        ]
+                             }
+}

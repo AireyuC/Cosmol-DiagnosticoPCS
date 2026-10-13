@@ -35,7 +35,8 @@ Cosmol-DiagnosticoP/
 
 ### 3.1. Cero Falsos Positivos de Antivirus
 * **Regla estricta:** No se compilan ejecutables utilizando librerías empaquetadoras genéricas como `PyInstaller`, `auto-py-to-exe` o wrappers no firmados, debido a que los motores heurísticos de Windows Defender suelen marcarlos erróneamente como troyanos.
-* **Solución nativa:** El agente utiliza **PowerShell 5.1+ nativo de Windows**, ejecutado a través de una Tarea Programada de Windows (`schtasks`) bajo la cuenta del sistema local (`NT AUTHORITY\SYSTEM`).
+* **Solución nativa:** El agente cliente de PC utiliza **PowerShell 5.1+ nativo de Windows**, ejecutado a través de una Tarea Programada de Windows (`schtasks`) bajo la cuenta del sistema local (`NT AUTHORITY\SYSTEM`).
+* **Alcance Exclusivo:** Este requisito de PowerShell nativo aplica **única y exclusivamente a este cliente recolector de Windows**. No aplica a la plataforma central `Formulario_Registro`, donde se utiliza libremente el stack web completo (PHP, Apache, Docker, JavaScript, SQL) y cualquier herramienta óptima de desarrollo.
 
 ### 3.2. Cero Interrupción al Usuario
 * No debe desplegarse ninguna ventana de consola negra, mensaje emergente ni diálogo que interrumpa al usuario mientras trabaja.

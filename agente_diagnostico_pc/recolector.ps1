@@ -1,4 +1,4 @@
-<#
+﻿<#
 ================================================================================
 SCRIPT: recolector.ps1
 PROPÓSITO: Extracción nativa de telemetría de hardware, SMART, Prefetch y Defender
@@ -512,7 +512,7 @@ $Reporte = [PSCustomObject]@{
 }
 
 # Convertir a JSON
-$JsonOutput = $Reporte | ConvertTo-Json -Depth 6
+$JsonOutput = $Reporte | ConvertTo-Json -Depth 10
 
 # Guardar copia local si está habilitado en config
 if ($ConfigRaw -and $ConfigRaw.debug -and $ConfigRaw.debug.guardar_ultimo_json_local) {

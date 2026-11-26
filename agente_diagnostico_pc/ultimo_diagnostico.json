@@ -3,16 +3,16 @@
                       "direccion_mac":  "2C:3B:70:D8:1E:81",
                       "hostname":  "AIREYU",
                       "usuario_windows":  "Aireyu\\airey",
-                      "ip_local":  "192.168.11.75",
-                      "tipo_evento":  "programado",
-                      "timestamp":  "2026-10-12T21:24:59Z"
+                      "ip_local":  "192.168.11.17",
+                      "tipo_evento":  "manual",
+                      "timestamp":  "2026-10-13T20:49:26Z"
                   },
     "resumen_salud":  {
                           "estado_salud_general":  "advertencia",
-                          "uso_cpu_porcentaje":  30,
+                          "uso_cpu_porcentaje":  37,
                           "temperatura_cpu":  null,
-                          "uso_ram_porcentaje":  81.9,
-                          "espacio_libre_c_gb":  12.4,
+                          "uso_ram_porcentaje":  84.2,
+                          "espacio_libre_c_gb":  13.1,
                           "salud_disco_smart":  "OK",
                           "antivirus_activo":  true,
                           "amenazas_activas":  0
@@ -22,16 +22,16 @@
                                  "modelo":  "12th Gen Intel(R) Core(TM) i5-12450H",
                                  "nucleos":  8,
                                  "hilos":  12,
-                                 "carga_porcentaje":  30,
+                                 "carga_porcentaje":  37,
                                  "temperatura_c":  null,
                                  "estado":  "optimo",
                                  "alerta":  null
                              },
                      "ram":  {
                                  "total_gb":  16,
-                                 "usado_gb":  12.83,
-                                 "libre_gb":  2.84,
-                                 "uso_porcentaje":  81.9,
+                                 "usado_gb":  13.2,
+                                 "libre_gb":  2.47,
+                                 "uso_porcentaje":  84.2,
                                  "ranuras_usadas":  2,
                                  "velocidad_mhz":  3200,
                                  "estado":  "bueno",
@@ -42,11 +42,11 @@
                                                 "unidad":  "C:",
                                                 "modelo":  "SK hynix PC801 HFS512GEJ9X101N",
                                                 "tamano_gb":  236.6,
-                                                "libre_gb":  12.4,
-                                                "libre_porcentaje":  5.2,
+                                                "libre_gb":  13.1,
+                                                "libre_porcentaje":  5.5,
                                                 "smart_status":  "OK",
                                                 "estado":  "advertencia",
-                                                "alerta":  "Espacio bajo: 12.4 GB libres (5.2%)"
+                                                "alerta":  "Espacio bajo: 13.1 GB libres (5.5%)"
                                             },
                                             {
                                                 "unidad":  "D:",
@@ -62,11 +62,11 @@
                                                 "unidad":  "G:",
                                                 "modelo":  "SK hynix PC801 HFS512GEJ9X101N",
                                                 "tamano_gb":  236.6,
-                                                "libre_gb":  11.8,
-                                                "libre_porcentaje":  5,
+                                                "libre_gb":  12.4,
+                                                "libre_porcentaje":  5.2,
                                                 "smart_status":  "OK",
                                                 "estado":  "advertencia",
-                                                "alerta":  "Espacio bajo: 11.8 GB libres (5%)"
+                                                "alerta":  "Espacio bajo: 12.4 GB libres (5.2%)"
                                             }
                                         ],
                      "placa_madre":  {
@@ -77,7 +77,7 @@
                      "red":  {
                                  "adaptador":  "MediaTek MT7921 Wi-Fi 6 802.11ax PCIe Adapter",
                                  "mac":  "2C:3B:70:D8:1E:81",
-                                 "ip":  "192.168.11.75",
+                                 "ip":  "192.168.11.17",
                                  "gateway":  "192.168.11.1",
                                  "dns":  [
                                              "96.45.45.45",
@@ -92,16 +92,46 @@
                                                    "nombre":  "Windows Defender",
                                                    "proteccion_tiempo_real":  true,
                                                    "firmas_actualizadas":  true,
-                                                   "ultima_definicion":  "2026-10-11 10:15:07",
+                                                   "ultima_definicion":  "2026-10-12 12:06:44",
                                                    "amenazas_activas":  0,
                                                    "estado":  "optimo",
                                                    "alerta":  null
                                                },
                                  "apps_recientes_prefetch":  [
                                                                  {
-                                                                     "ejecutable":  "ms-photosspareprocess-viewer (37)",
-                                                                     "ultima_ejecucion":  "2026-10-12 16:11:53",
+                                                                     "ejecutable":  "Cosmol-DiagnosticoP",
+                                                                     "ultima_ejecucion":  "2026-10-13 16:41:17",
+                                                                     "tamano_kb":  0.5,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "http--meet.google.com-jhi-fftn-xkt",
+                                                                     "ultima_ejecucion":  "2026-10-13 15:21:00",
                                                                      "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "ms-screenclip---source=PrintScreen (90)",
+                                                                     "ultima_ejecucion":  "2026-10-13 12:03:49",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "Guasase.docx",
+                                                                     "ultima_ejecucion":  "2026-10-13 10:02:14",
+                                                                     "tamano_kb":  0.6,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "ms-photosspareprocess-viewer (37)",
+                                                                     "ultima_ejecucion":  "2026-10-13 08:44:11",
+                                                                     "tamano_kb":  0.2,
+                                                                     "fuente":  "UserRecent"
+                                                                 },
+                                                                 {
+                                                                     "ejecutable":  "Screenshot 2026-10-08 153939.png",
+                                                                     "ultima_ejecucion":  "2026-10-13 08:44:10",
+                                                                     "tamano_kb":  3.7,
                                                                      "fuente":  "UserRecent"
                                                                  },
                                                                  {
@@ -147,12 +177,6 @@
                                                                      "fuente":  "UserRecent"
                                                                  },
                                                                  {
-                                                                     "ejecutable":  "ms-screenclip---source=PrintScreen (90)",
-                                                                     "ultima_ejecucion":  "2026-10-11 14:32:24",
-                                                                     "tamano_kb":  0.2,
-                                                                     "fuente":  "UserRecent"
-                                                                 },
-                                                                 {
                                                                      "ejecutable":  "PhoneFixDir",
                                                                      "ultima_ejecucion":  "2026-10-11 12:03:52",
                                                                      "tamano_kb":  0.6,
@@ -162,30 +186,6 @@
                                                                      "ejecutable":  "campo_garantia.jpg",
                                                                      "ultima_ejecucion":  "2026-10-11 12:03:52",
                                                                      "tamano_kb":  0.8,
-                                                                     "fuente":  "UserRecent"
-                                                                 },
-                                                                 {
-                                                                     "ejecutable":  "factura_PF_2610_0006.pdf",
-                                                                     "ultima_ejecucion":  "2026-10-10 17:26:42",
-                                                                     "tamano_kb":  0.6,
-                                                                     "fuente":  "UserRecent"
-                                                                 },
-                                                                 {
-                                                                     "ejecutable":  "ms-photosspareprocess-viewer (36)",
-                                                                     "ultima_ejecucion":  "2026-10-10 16:51:07",
-                                                                     "tamano_kb":  0.2,
-                                                                     "fuente":  "UserRecent"
-                                                                 },
-                                                                 {
-                                                                     "ejecutable":  "campo_proveedores.jpg",
-                                                                     "ultima_ejecucion":  "2026-10-10 16:51:03",
-                                                                     "tamano_kb":  0.8,
-                                                                     "fuente":  "UserRecent"
-                                                                 },
-                                                                 {
-                                                                     "ejecutable":  "ms-photosspareprocess-viewer (35)",
-                                                                     "ultima_ejecucion":  "2026-10-09 21:53:55",
-                                                                     "tamano_kb":  0.2,
                                                                      "fuente":  "UserRecent"
                                                                  }
                                                              ],
@@ -198,9 +198,9 @@
                                                              }
                                                          ],
                                  "alertas_detectadas":  [
-                                                            "ADVERTENCIA [C:]: Espacio bajo: 12.4 GB libres (5.2%)",
+                                                            "ADVERTENCIA [C:]: Espacio bajo: 13.1 GB libres (5.5%)",
                                                             "ADVERTENCIA [D:]: Espacio bajo: 17.3 GB libres (7.2%)",
-                                                            "ADVERTENCIA [G:]: Espacio bajo: 11.8 GB libres (5%)"
+                                                            "ADVERTENCIA [G:]: Espacio bajo: 12.4 GB libres (5.2%)"
                                                         ]
                              }
 }

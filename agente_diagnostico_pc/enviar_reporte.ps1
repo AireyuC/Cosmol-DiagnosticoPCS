@@ -1,4 +1,4 @@
-<#
+﻿<#
 ================================================================================
 SCRIPT: enviar_reporte.ps1
 PROPÓSITO: Ejecuta la telemetría y envía el JSON vía HTTP POST al servidor central
@@ -16,7 +16,7 @@ $RutaConfig = Join-Path $DirectorioScript "config.json"
 $RutaRecolector = Join-Path $DirectorioScript "recolector.ps1"
 
 # Cargar configuración
-$UrlApi = "http://192.168.11.70:83/api/diagnostico/recibir.php"
+$UrlApi = "http://192.168.11.17:83/api/diagnostico/recibir.php"
 $TimeoutSegundos = 15
 $ReintentosMax = 2
 
@@ -54,7 +54,7 @@ while (-not $Enviado -and $Intento -lt $ReintentosMax) {
 
         $Respuesta = Invoke-RestMethod -Uri $UrlApi `
                                        -Method Post `
-                                       -Body $PayloadJson `
+                                       -Body ([System.Text.Encoding]::UTF8.GetBytes($PayloadJson)) `
                                        -ContentType "application/json; charset=utf-8" `
                                        -TimeoutSec $TimeoutSegundos `
                                        -ErrorAction Stop

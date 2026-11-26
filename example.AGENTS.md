@@ -1,3 +1,5 @@
+# NO TOMAR EN CUENTA, SOLO COMO DATOS INFORMATIVOS PARCIALES, EN FUNCIONAMIENTO SE USA SOLO POWERSHELL PARA PODER OBTENER DATOS DE TELEMETRÍA Y ENVIARLOS AL SERVIDOR DICHA CONFIGURACION CENTRAL ES DE Formulario_Registro.
+
 # AGENTS.md: Módulo de Agente y Script de Diagnóstico PC (Cosmol)
 
 Este documento define la arquitectura, normas operativas, diseño técnico y contexto general para cualquier agente de inteligencia artificial o desarrollador que trabaje en el repositorio **Cosmol-DiagnosticoP**.
@@ -36,7 +38,6 @@ Cosmol-DiagnosticoP/
 ### 3.1. Cero Falsos Positivos de Antivirus
 * **Regla estricta:** No se compilan ejecutables utilizando librerías empaquetadoras genéricas como `PyInstaller`, `auto-py-to-exe` o wrappers no firmados, debido a que los motores heurísticos de Windows Defender suelen marcarlos erróneamente como troyanos.
 * **Solución nativa:** El agente cliente de PC utiliza **PowerShell 5.1+ nativo de Windows**, ejecutado a través de una Tarea Programada de Windows (`schtasks`) bajo la cuenta del sistema local (`NT AUTHORITY\SYSTEM`).
-* **Alcance Exclusivo:** Este requisito de PowerShell nativo aplica **única y exclusivamente a este cliente recolector de Windows**. No aplica a la plataforma central `Formulario_Registro`, donde se utiliza libremente el stack web completo (PHP, Apache, Docker, JavaScript, SQL) y cualquier herramienta óptima de desarrollo.
 
 ### 3.2. Cero Interrupción al Usuario
 * No debe desplegarse ninguna ventana de consola negra, mensaje emergente ni diálogo que interrumpa al usuario mientras trabaja.
